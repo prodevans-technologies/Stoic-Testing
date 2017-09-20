@@ -79,7 +79,7 @@ public class LibraryForGenericFunction extends ExtractingDataFromPropertiesFile 
 
 	public boolean waitAndClickForID(String ID, String fileName, String locatorType)
 			throws InterruptedException, IOException {
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		Properties propsOfPage = extractData(fileName);
 		String exe = propsOfPage.getProperty(ID);
 		By locator;
