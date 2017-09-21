@@ -11,7 +11,7 @@ public class ExtentManager {
 			extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/ZenoExtentReport.html", true);
 			extent.loadConfig(new File(System.getProperty("user.dir") + "\\extent-config.xml"));
 			extent
-			.addSystemInfo("Host Name", "http://52.172.215.71/zeno/login")
+			.addSystemInfo("Host Name", "http://localhost:8080/zeno")
 			.addSystemInfo("Environment", "DEMO")
 			.addSystemInfo("Application", "Zeno");
 		}

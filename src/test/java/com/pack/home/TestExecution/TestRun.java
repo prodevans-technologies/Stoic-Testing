@@ -20,7 +20,7 @@ public class TestRun {
 		driver = Dlib.openBrowser("chrome");
 		lib = new LibraryForGenericFunction(driver);
 		// Application link will be opened
-		driver.get("http://52.172.215.71/zeno/login");
+		driver.get("http://localhost:8080/zeno/login");
 	}
 
 	@Test(priority = 1, description="Performs an unsuccessful login and checks the resulting error message (passes)")
@@ -38,7 +38,7 @@ public class TestRun {
 		lib.jsSendKeysForID("password", "123456", "login", "ID");
 		Assert.assertTrue(lib.waitAndClickForID("login", "login", "ID"));
 		Thread.sleep(2000);
-		Assert.assertEquals(lib.getCurrentUrl(), "http://52.172.215.71/zeno/dashboard");					
+		Assert.assertEquals(lib.getCurrentUrl(), "http://localhost:8080/zeno/dashboard");					
 	}
 	
 	@Test(priority = 3,description="Checks for the welcome message (passes)")
@@ -70,7 +70,7 @@ public class TestRun {
 	public void sendfeedback() throws InterruptedException, IOException {
 		lib.jsSendKeysForID("subject", "test", "login", "ID");
 		lib.jsSendKeysForID("message", "testing1feedback", "login", "ID");
-		Assert.assertTrue(lib.waitAndClickForID("sendnowfeedback", "login", "class"));
+		Assert.assertTrue(lib.waitAndClickForID("sendnowfeedback", "login", "ID"));
 		Thread.sleep(2000);
 		//Assert.assertEquals(lib.getCurrentUrl(), "http://localhost:8080/zeno/contactusPage");					
 	}
@@ -105,11 +105,11 @@ public class TestRun {
 	}
 	
 	@Test(priority = 15, description="Performs an contactus send mail  (passes)")
-	public void sendnow() throws InterruptedException, IOException {
+	public void sendcontactus() throws InterruptedException, IOException {
 		lib.jsSendKeysForID("subject", "test", "login", "ID");
 		lib.jsSendKeysForID("message", "testingcontact", "login", "ID");
-		Assert.assertTrue(lib.waitAndClickForID("sendnow", "login", "class"));
-		Thread.sleep(2000);
+		Assert.assertTrue(lib.waitAndClickForID("sendnow", "login", "ID"));
+		Thread.sleep(1000);
 		//Assert.assertEquals(lib.getCurrentUrl(), "http://localhost:8080/zeno/contactusPage");					
 	}
 	
@@ -139,7 +139,7 @@ public class TestRun {
 	public void sendnowrequest() throws InterruptedException, IOException {
 		//lib.jsSendKeysForID("check", "New connection", "login", "ID");
 		lib.jsSendKeysForID("message", "tellus", "login", "ID");
-		Assert.assertTrue(lib.waitAndClickForID("sendnowrequest", "login", "class"));
+		Assert.assertTrue(lib.waitAndClickForID("sendnowrequest", "login", "ID"));
 		Thread.sleep(2000);
 		//Assert.assertEquals(lib.getCurrentUrl(), "http://localhost:8080/zeno/contactusPage");					
 	}
