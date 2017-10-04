@@ -6,8 +6,8 @@
       <class name="com.pack.home.TestExecution.TestRun">
         <methods>
           <include name="executing"/>
-          <include name="sendnowrequest"/>
           <include name="afterMethod"/>
+          <include name="clickknowbill"/>
         </methods>
       </class> <!-- com.pack.home.TestExecution.TestRun -->
     </classes>

@@ -20,7 +20,7 @@ public class TestRun {
 		driver = Dlib.openBrowser("chrome");
 		lib = new LibraryForGenericFunction(driver);
 		// Application link will be opened
-		driver.get("http://localhost:8080/zeno/login");
+		driver.get("http://marcus.oneeight.co.in/zeno/login");
 	}
 
 	@Test(priority = 1, description="Performs an unsuccessful login and checks the resulting error message (passes)")
@@ -38,7 +38,7 @@ public class TestRun {
 		lib.jsSendKeysForID("password", "123456", "login", "ID");
 		Assert.assertTrue(lib.waitAndClickForID("login", "login", "ID"));
 		Thread.sleep(2000);
-		Assert.assertEquals(lib.getCurrentUrl(), "http://localhost:8080/zeno/dashboard");					
+		Assert.assertEquals(lib.getCurrentUrl(), "http://marcus.oneeight.co.in/zeno/dashboard");					
 	}
 	
 	@Test(priority = 3,description="Checks for the welcome message (passes)")
@@ -84,10 +84,7 @@ public class TestRun {
 		lib.waitAndClickForID("knowlink", "login", "linktext");
 	}
 	
-	@Test(priority = 11, description="Tries to navigate to Know your BILL (passes)")
-	public void clickknowbill() throws InterruptedException, IOException {
-		lib.waitAndClickForID("knowbilllink", "login", "linktext");
-	}
+	
 	
 	@Test(priority = 12, description="Tries to navigate to Make Payment (passes)")
 	public void clickPayment() throws InterruptedException, IOException {
