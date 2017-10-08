@@ -1,10 +1,15 @@
 package com.pack.home.Libraries;
 
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.*;
+
 
 public class DriverLaunch {
 
@@ -25,8 +30,19 @@ public class DriverLaunch {
 			} else if (browser.equalsIgnoreCase("IE")) {
 				System.out.println("Selected browser is Internet Explorer");
 				System.setProperty("webdriver.ie.driver",
-						"" + currentDir + "" + "/src/com/pack/home/AllDrivers/IEDriverServer.exe");
+						"" + currentDir + "" + "/src/main/java/com/pack/home/AllDrivers/IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
+			} else if (browser.equalsIgnoreCase("phantomjs")) {	
+				System.setProperty("phantomjs.binary.path",
+						"" + currentDir + "" + "/src/main/java/com/pack/home/AllDrivers/phantomjs/phantomjs");
+				
+				Capabilities caps = new DesiredCapabilities();
+				((DesiredCapabilities) caps).setJavascriptEnabled(true);				
+				((DesiredCapabilities) caps).setCapability(
+				PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
+				""+currentDir+""+""+ "/src/main/java/com/pack/home/AllDrivers/phantomjs/phantomjs"
+				);
+				driver = new PhantomJSDriver(caps);
 			}
 
 		} catch (WebDriverException e) {
