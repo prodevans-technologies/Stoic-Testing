@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="196.033" tests="20" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="29.634" tests="22" errors="0" skipped="21" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
     <property name="java.vm.version" value="25.131-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\Stoic Test"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\Stoic-Testing"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\Stoic Test"/>
+    <property name="user.dir" value="F:\Stoic-Testing"/>
     <property name="java.runtime.version" value="1.8.0_131-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\ANAND\Documents\workspace-sts\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4999403811199291029.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\ANAND\Documents\workspace-sts\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1917543546670157302.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\PuTTY\;C:\gradle-4.0\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\sbt;C:\Program Files\scala-2.12.3\bin;C:\Users\ANAND\.minishift\cache\oc\v3.5.5.31;C:\Program Files\scala-2.12.3\bin;c:\DevelopmentSuite\cdk\bin;c:\DevelopmentSuite\cygwin\bin;C:\Users\ANAND\AppData\Local\Microsoft\WindowsApps;C:\gradle-4.0\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\apache-maven-3.5.0\bin;E:\hadoop-2.6.0\bin;;E:\sts-bundle\sts-3.9.0.RELEASE;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\PuTTY\;C:\gradle-4.0\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\sbt;C:\Program Files\scala-2.12.3\bin;C:\Users\ANAND\.minishift\cache\oc\v3.5.5.31;C:\Program Files\scala-2.12.3\bin;C:\Users\ANAND\AppData\Local\Microsoft\WindowsApps;C:\gradle-4.0\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\apache-maven-3.5.0\bin;E:\hadoop-2.6.0\bin;;E:\sts-bundle\sts-3.9.0.RELEASE;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="E:\Stoic Test\EMBEDDED"/>
+    <property name="maven.home" value="F:\Stoic-Testing\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,24 +60,88 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="unsuccessfullogin" classname="com.pack.home.TestExecution.TestRun" time="11.661"/>
-  <testcase name="login" classname="com.pack.home.TestExecution.TestRun" time="13.446"/>
-  <testcase name="verifyWelcomeMesg" classname="com.pack.home.TestExecution.TestRun" time="0.168"/>
-  <testcase name="clickPrivacy" classname="com.pack.home.TestExecution.TestRun" time="6.589"/>
-  <testcase name="clickTerms" classname="com.pack.home.TestExecution.TestRun" time="5.844"/>
-  <testcase name="clickRefund" classname="com.pack.home.TestExecution.TestRun" time="5.979"/>
-  <testcase name="clickfeedback" classname="com.pack.home.TestExecution.TestRun" time="5.922"/>
-  <testcase name="sendfeedback" classname="com.pack.home.TestExecution.TestRun" time="11.078"/>
-  <testcase name="clickfaq" classname="com.pack.home.TestExecution.TestRun" time="5.802"/>
-  <testcase name="clickknowcpe" classname="com.pack.home.TestExecution.TestRun" time="6.653"/>
-  <testcase name="clickPayment" classname="com.pack.home.TestExecution.TestRun" time="5.993"/>
-  <testcase name="clickPayBill" classname="com.pack.home.TestExecution.TestRun" time="5.837"/>
-  <testcase name="clickcontact" classname="com.pack.home.TestExecution.TestRun" time="8.547"/>
-  <testcase name="sendcontactus" classname="com.pack.home.TestExecution.TestRun" time="11.791"/>
-  <testcase name="clickTopUp" classname="com.pack.home.TestExecution.TestRun" time="5.909"/>
-  <testcase name="clickPlan" classname="com.pack.home.TestExecution.TestRun" time="5.849"/>
-  <testcase name="clickProfile" classname="com.pack.home.TestExecution.TestRun" time="5.76"/>
-  <testcase name="clickService" classname="com.pack.home.TestExecution.TestRun" time="5.724"/>
-  <testcase name="sendnowrequest" classname="com.pack.home.TestExecution.TestRun" time="9.503"/>
-  <testcase name="logout" classname="com.pack.home.TestExecution.TestRun" time="5.532"/>
+  <testcase name="executing" classname="com.pack.home.TestExecution.TestRun" time="27.071">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.pack.home.TestExecution.TestRun.executing(TestRun.java:20)
+</failure>
+    <system-out><![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-UTJTOH1', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: PhantomJSDriver
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2017 12:29:46 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: executable: F:\Stoic-Testing\src\main\java\com\pack\home\AllDrivers\phantomjs\phantomjs
+Oct 12, 2017 12:29:46 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: port: 38700
+Oct 12, 2017 12:29:46 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: arguments: [--webdriver=38700, --webdriver-logfile=F:\Stoic-Testing\phantomjsdriver.log]
+Oct 12, 2017 12:29:47 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: environment: {}
+Oct 12, 2017 12:30:10 PM org.openqa.selenium.os.UnixProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "F:\Stoic-Testing\src\main\java\com\pack\home\AllDrivers\phantomjs\phantomjs" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)
+]]></system-err>
+  </testcase>
+  <testcase name="unsuccessfullogin" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyWelcomeMesg" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickPrivacy" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickTerms" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickRefund" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickfeedback" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sendfeedback" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickfaq" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickknowcpe" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickPayment" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickPayBill" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickcontact" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sendcontactus" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickTopUp" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickPlan" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickProfile" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickService" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="sendnowrequest" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

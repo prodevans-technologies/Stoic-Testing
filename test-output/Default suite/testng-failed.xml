@@ -5,9 +5,34 @@
     <classes>
       <class name="com.pack.home.TestExecution.TestRun">
         <methods>
+          <include name="clickPrivacy"/>
+          <include name="clickTopUp"/>
+          <include name="Customurl"/>
+          <include name="selectlink2"/>
+          <include name="sendnowrequest"/>
+          <include name="blockedlink"/>
+          <include name="customlink"/>
+          <include name="clickProfile"/>
+          <include name="clickPayment"/>
+          <include name="sendfeedback"/>
+          <include name="selectlink"/>
+          <include name="unsuccessfullogin"/>
+          <include name="clickService"/>
+          <include name="clickknowcpe"/>
+          <include name="parentallink"/>
+          <include name="advancedlink"/>
+          <include name="clickRefund"/>
+          <include name="verifyWelcomeMesg"/>
+          <include name="sendcontactus"/>
+          <include name="clickTerms"/>
+          <include name="logout"/>
           <include name="executing"/>
-          <include name="afterMethod"/>
-          <include name="clickknowbill"/>
+          <include name="clickPlan"/>
+          <include name="clickfaq"/>
+          <include name="login"/>
+          <include name="clickPayBill"/>
+          <include name="clickcontact"/>
+          <include name="clickfeedback"/>
         </methods>
       </class> <!-- com.pack.home.TestExecution.TestRun -->
     </classes>

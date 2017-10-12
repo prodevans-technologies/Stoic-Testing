@@ -31,52 +31,66 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">20</td><td class="numi">20</td><td class="numi">0</td><td class="numi">0</td><td class="numi">192.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">20</td><td class="numi">0</td><td class="numi">24.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="20">com.pack.home.TestExecution.TestRun</td><td><a href="#m1"><b>unsuccessfullogin</b>  ("Performs an unsuccessful login and checks the resulting error message (passes)")</a></td><td class="numi">1</td><td>1507292107429</td><td class="numi">11663</td></tr><tr class="passedodd"><td><a href="#m2"><b>login</b>  ("Performs an successful login and checks the dashboard url (passes)")</a></td><td class="numi">1</td><td>1507292119092</td><td class="numi">13439</td></tr><tr class="passedodd"><td><a href="#m3"><b>verifyWelcomeMesg</b>  ("Checks for the welcome message (passes)")</a></td><td class="numi">1</td><td>1507292132532</td><td class="numi">171</td></tr><tr class="passedodd"><td><a href="#m4"><b>clickPrivacy</b>  ("Tries to navigate to privacy Page(passes)")</a></td><td class="numi">1</td><td>1507292132705</td><td class="numi">6589</td></tr><tr class="passedodd"><td><a href="#m5"><b>clickTerms</b>  ("Tries to navigate to Terms of services (passes)")</a></td><td class="numi">1</td><td>1507292139295</td><td class="numi">5843</td></tr><tr class="passedodd"><td><a href="#m6"><b>clickRefund</b>  ("Tries to navigate to Refund page (passes)")</a></td><td class="numi">1</td><td>1507292145139</td><td class="numi">5977</td></tr><tr class="passedodd"><td><a href="#m7"><b>clickfeedback</b>  ("Tries to navigate to Feedback (passes)")</a></td><td class="numi">1</td><td>1507292151117</td><td class="numi">5922</td></tr><tr class="passedodd"><td><a href="#m8"><b>sendfeedback</b>  ("Performs an Feedback send mail  (passes)")</a></td><td class="numi">1</td><td>1507292157040</td><td class="numi">11078</td></tr><tr class="passedodd"><td><a href="#m9"><b>clickfaq</b>  ("Tries to navigate to FAQ (passes)")</a></td><td class="numi">1</td><td>1507292168118</td><td class="numi">5802</td></tr><tr class="passedodd"><td><a href="#m10"><b>clickknowcpe</b>  ("Tries to navigate to Know your CPE (passes)")</a></td><td class="numi">1</td><td>1507292173921</td><td class="numi">6652</td></tr><tr class="passedodd"><td><a href="#m11"><b>clickPayment</b>  ("Tries to navigate to Make Payment (passes)")</a></td><td class="numi">1</td><td>1507292180574</td><td class="numi">5992</td></tr><tr class="passedodd"><td><a href="#m12"><b>clickPayBill</b>  ("Tries to navigate to pay Bill (passes)")</a></td><td class="numi">1</td><td>1507292186567</td><td class="numi">5837</td></tr><tr class="passedodd"><td><a href="#m13"><b>clickcontact</b>  ("Tries to navigate to Contact us (passes)")</a></td><td class="numi">1</td><td>1507292192404</td><td class="numi">8547</td></tr><tr class="passedodd"><td><a href="#m14"><b>sendcontactus</b>  ("Performs an contactus send mail  (passes)")</a></td><td class="numi">1</td><td>1507292200952</td><td class="numi">11791</td></tr><tr class="passedodd"><td><a href="#m15"><b>clickTopUp</b>  ("Tries to navigate to Top up (passes)")</a></td><td class="numi">1</td><td>1507292212743</td><td class="numi">5908</td></tr><tr class="passedodd"><td><a href="#m16"><b>clickPlan</b>  ("Tries to navigate to Your Plan(passes)")</a></td><td class="numi">1</td><td>1507292218652</td><td class="numi">5848</td></tr><tr class="passedodd"><td><a href="#m17"><b>clickProfile</b>  ("Navigates to Profile page (passes)")</a></td><td class="numi">1</td><td>1507292224500</td><td class="numi">5760</td></tr><tr class="passedodd"><td><a href="#m18"><b>clickService</b>  ("Navigates to Service request page (passes)")</a></td><td class="numi">1</td><td>1507292230261</td><td class="numi">5723</td></tr><tr class="passedodd"><td><a href="#m19"><b>sendnowrequest</b>  ("Performs an Service request send mail  (passes)")</a></td><td class="numi">1</td><td>1507292235985</td><td class="numi">9503</td></tr><tr class="passedodd"><td><a href="#m20"><b>logout</b>  ("Logs out (passes)")</a></td><td class="numi">1</td><td>1507292245488</td><td class="numi">5532</td></tr>
+<tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.pack.home.TestExecution.TestRun</td><td><a href="#m1"><b>executing</b>  </a></td><td class="numi">1</td><td>1507791586270</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.pack.home.TestExecution.TestRun</td><td><a href="#m2"><b>afterMethod</b>  </a></td><td class="numi">1</td><td>1507791610754</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="20">com.pack.home.TestExecution.TestRun</td><td><a href="#m3"><b>unsuccessfullogin</b>  ("Performs an unsuccessful login and checks the resulting error message (passes)")</a></td><td class="numi">1</td><td>1507791610735</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m4"><b>login</b>  ("Performs an successful login and checks the dashboard url (passes)")</a></td><td class="numi">1</td><td>1507791610736</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m5"><b>verifyWelcomeMesg</b>  ("Checks for the welcome message (passes)")</a></td><td class="numi">1</td><td>1507791610737</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m6"><b>clickPrivacy</b>  ("Tries to navigate to privacy Page(passes)")</a></td><td class="numi">1</td><td>1507791610740</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m7"><b>clickTerms</b>  ("Tries to navigate to Terms of services (passes)")</a></td><td class="numi">1</td><td>1507791610741</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m8"><b>clickRefund</b>  ("Tries to navigate to Refund page (passes)")</a></td><td class="numi">1</td><td>1507791610742</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m9"><b>clickfeedback</b>  ("Tries to navigate to Feedback (passes)")</a></td><td class="numi">1</td><td>1507791610743</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m10"><b>sendfeedback</b>  ("Performs an Feedback send mail  (passes)")</a></td><td class="numi">1</td><td>1507791610743</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m11"><b>clickfaq</b>  ("Tries to navigate to FAQ (passes)")</a></td><td class="numi">1</td><td>1507791610744</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m12"><b>clickknowcpe</b>  ("Tries to navigate to Know your CPE (passes)")</a></td><td class="numi">1</td><td>1507791610745</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m13"><b>clickPayment</b>  ("Tries to navigate to Make Payment (passes)")</a></td><td class="numi">1</td><td>1507791610745</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m14"><b>clickPayBill</b>  ("Tries to navigate to pay Bill (passes)")</a></td><td class="numi">1</td><td>1507791610746</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m15"><b>clickcontact</b>  ("Tries to navigate to Contact us (passes)")</a></td><td class="numi">1</td><td>1507791610747</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m16"><b>sendcontactus</b>  ("Performs an contactus send mail  (passes)")</a></td><td class="numi">1</td><td>1507791610748</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m17"><b>clickTopUp</b>  ("Tries to navigate to Top up (passes)")</a></td><td class="numi">1</td><td>1507791610748</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m18"><b>clickPlan</b>  ("Tries to navigate to Your Plan(passes)")</a></td><td class="numi">1</td><td>1507791610749</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m19"><b>clickProfile</b>  ("Navigates to Profile page (passes)")</a></td><td class="numi">1</td><td>1507791610750</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m20"><b>clickService</b>  ("Navigates to Service request page (passes)")</a></td><td class="numi">1</td><td>1507791610751</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m21"><b>sendnowrequest</b>  ("Performs an Service request send mail  (passes)")</a></td><td class="numi">1</td><td>1507791610751</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m22"><b>logout</b>  ("Logs out (passes)")</a></td><td class="numi">1</td><td>1507791610752</td><td class="numi">0</td></tr>
 </table>
 <h1>Test</h1>
-<h2 id="m1">com.pack.home.TestExecution.TestRun:clickPayBill</h2>
+<h2 id="m1">com.pack.home.TestExecution.TestRun:executing</h2>
+<div style="padding-left:3em">
+<p>null</p>
+com.pack.home.Libraries.DriverLaunch.openBrowser(DriverLaunch.java:53)
+<br/>at com.pack.home.TestExecution.TestRun.executing(TestRun.java:20)
+<br/>26 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">com.pack.home.TestExecution.TestRun:sendfeedback</h2>
+<h2 id="m2">com.pack.home.TestExecution.TestRun:afterMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">com.pack.home.TestExecution.TestRun:sendnowrequest</h2>
+<h2 id="m3">com.pack.home.TestExecution.TestRun:clickTopUp</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">com.pack.home.TestExecution.TestRun:logout</h2>
+<h2 id="m4">com.pack.home.TestExecution.TestRun:sendcontactus</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">com.pack.home.TestExecution.TestRun:clickcontact</h2>
+<h2 id="m5">com.pack.home.TestExecution.TestRun:clickProfile</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">com.pack.home.TestExecution.TestRun:clickTopUp</h2>
+<h2 id="m6">com.pack.home.TestExecution.TestRun:clickTerms</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">com.pack.home.TestExecution.TestRun:unsuccessfullogin</h2>
+<h2 id="m7">com.pack.home.TestExecution.TestRun:login</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">com.pack.home.TestExecution.TestRun:clickRefund</h2>
+<h2 id="m8">com.pack.home.TestExecution.TestRun:clickPlan</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m9">com.pack.home.TestExecution.TestRun:clickknowcpe</h2>
+<h2 id="m9">com.pack.home.TestExecution.TestRun:clickPrivacy</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m10">com.pack.home.TestExecution.TestRun:clickService</h2>
+<h2 id="m10">com.pack.home.TestExecution.TestRun:sendfeedback</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m11">com.pack.home.TestExecution.TestRun:clickTerms</h2>
+<h2 id="m11">com.pack.home.TestExecution.TestRun:clickRefund</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m12">com.pack.home.TestExecution.TestRun:clickfaq</h2>
+<h2 id="m12">com.pack.home.TestExecution.TestRun:clickknowcpe</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m13">com.pack.home.TestExecution.TestRun:clickfeedback</h2>
+<h2 id="m13">com.pack.home.TestExecution.TestRun:clickPayBill</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m14">com.pack.home.TestExecution.TestRun:clickPayment</h2>
+<h2 id="m14">com.pack.home.TestExecution.TestRun:clickcontact</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m15">com.pack.home.TestExecution.TestRun:login</h2>
+<h2 id="m15">com.pack.home.TestExecution.TestRun:clickPayment</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m16">com.pack.home.TestExecution.TestRun:clickPrivacy</h2>
+<h2 id="m16">com.pack.home.TestExecution.TestRun:unsuccessfullogin</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m17">com.pack.home.TestExecution.TestRun:verifyWelcomeMesg</h2>
+<h2 id="m17">com.pack.home.TestExecution.TestRun:clickService</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m18">com.pack.home.TestExecution.TestRun:sendcontactus</h2>
+<h2 id="m18">com.pack.home.TestExecution.TestRun:clickfeedback</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m19">com.pack.home.TestExecution.TestRun:clickProfile</h2>
+<h2 id="m19">com.pack.home.TestExecution.TestRun:verifyWelcomeMesg</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m20">com.pack.home.TestExecution.TestRun:clickPlan</h2>
+<h2 id="m20">com.pack.home.TestExecution.TestRun:clickfaq</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.pack.home.TestExecution.TestRun:logout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.pack.home.TestExecution.TestRun:sendnowrequest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
