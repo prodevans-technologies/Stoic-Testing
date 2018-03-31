@@ -163,20 +163,7 @@ public class TestRun {
 	public void advancedlink() throws InterruptedException, IOException {
 		lib.waitAndClickForID("advancedlink", "dashboard", "ID");
 	}
-	
-	@Test(priority = 4, description="Tries to navigate to Advanced List (passes)")
-	public void selectlink() throws InterruptedException, IOException {
-		try {
-			Thread.sleep(1000);
-			((WebDriver) lib).findElement(By.cssSelector("label[for='auctions']")).click();
-			
-		}catch(Exception e) {
-			System.out.println(e);
-		}
 		
-		//lib.waitAndClickForID("selectlink", "dashboard", "ID");
-	}
-	
 	
 	@Test(priority = 4, description="Tries to navigate to Blocked List (passes)")
 	public void selectlink2() throws InterruptedException, IOException {

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="20" failed="0" total="20" passed="0">
+<testng-results skipped="26" failed="0" total="26" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24487" started-at="2017-10-12T06:59:46Z" finished-at="2017-10-12T07:00:10Z">
+  <suite name="Suite" duration-ms="20976" started-at="2018-03-01T10:53:01Z" finished-at="2018-03-01T10:53:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24487" started-at="2017-10-12T06:59:46Z" finished-at="2017-10-12T07:00:10Z">
+    <test name="Test" duration-ms="20976" started-at="2018-03-01T10:53:01Z" finished-at="2018-03-01T10:53:22Z">
       <class name="com.pack.home.TestExecution.TestRun">
-        <test-method status="FAIL" signature="executing()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="executing" is-config="true" duration-ms="0" started-at="2017-10-12T12:29:46Z" finished-at="2017-10-12T12:29:46Z">
+        <test-method status="FAIL" signature="executing()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="executing" is-config="true" duration-ms="0" started-at="2018-03-01T16:23:01Z" finished-at="2018-03-01T16:23:01Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -44,87 +44,111 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executing -->
-        <test-method status="SKIP" signature="unsuccessfullogin()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="unsuccessfullogin" duration-ms="1" started-at="2017-10-12T12:30:10Z" description="Performs an unsuccessful login and checks the resulting error message (passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="unsuccessfullogin()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="unsuccessfullogin" duration-ms="7" started-at="2018-03-01T16:23:22Z" description="Performs an unsuccessful login and checks the resulting error message (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unsuccessfullogin -->
-        <test-method status="SKIP" signature="login()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="login" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Performs an successful login and checks the dashboard url (passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="login" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Performs an successful login and checks the dashboard url (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="SKIP" signature="verifyWelcomeMesg()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="verifyWelcomeMesg" duration-ms="2" started-at="2017-10-12T12:30:10Z" description="Checks for the welcome message (passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="parentallink()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="parentallink" duration-ms="1" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Parental Control (passes)" finished-at="2018-03-01T16:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentallink -->
+        <test-method status="SKIP" signature="blockedlink()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="blockedlink" duration-ms="8" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Blocked List (passes)" finished-at="2018-03-01T16:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blockedlink -->
+        <test-method status="SKIP" signature="verifyWelcomeMesg()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="verifyWelcomeMesg" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Checks for the welcome message (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWelcomeMesg -->
-        <test-method status="SKIP" signature="clickPrivacy()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickPrivacy" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Tries to navigate to privacy Page(passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="advancedlink()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="advancedlink" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Blocked List (passes)" finished-at="2018-03-01T16:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advancedlink -->
+        <test-method status="SKIP" signature="clickPrivacy()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickPrivacy" duration-ms="1" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to privacy Page(passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickPrivacy -->
-        <test-method status="SKIP" signature="clickTerms()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickTerms" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Tries to navigate to Terms of services (passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="selectlink2()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="selectlink2" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Blocked List (passes)" finished-at="2018-03-01T16:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectlink2 -->
+        <test-method status="SKIP" signature="customlink()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="customlink" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Custom List (passes)" finished-at="2018-03-01T16:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customlink -->
+        <test-method status="SKIP" signature="clickTerms()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickTerms" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Terms of services (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickTerms -->
-        <test-method status="SKIP" signature="clickRefund()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickRefund" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Tries to navigate to Refund page (passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="clickRefund()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickRefund" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Refund page (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickRefund -->
-        <test-method status="SKIP" signature="sendfeedback()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="sendfeedback" duration-ms="1" started-at="2017-10-12T12:30:10Z" description="Performs an Feedback send mail  (passes)" finished-at="2017-10-12T12:30:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sendfeedback -->
-        <test-method status="SKIP" signature="clickfeedback()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickfeedback" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Tries to navigate to Feedback (passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="clickfeedback()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickfeedback" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Feedback (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickfeedback -->
-        <test-method status="SKIP" signature="clickfaq()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickfaq" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Tries to navigate to FAQ (passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="sendfeedback()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="sendfeedback" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Performs an Feedback send mail  (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickfaq -->
-        <test-method status="SKIP" signature="clickknowcpe()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickknowcpe" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Tries to navigate to Know your CPE (passes)" finished-at="2017-10-12T12:30:10Z">
+        </test-method> <!-- sendfeedback -->
+        <test-method status="SKIP" signature="Customurl()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="Customurl" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Perform Send Mail for New Connection (passes)" finished-at="2018-03-01T16:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customurl -->
+        <test-method status="SKIP" signature="clickknowcpe()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickknowcpe" duration-ms="1" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Know your CPE (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickknowcpe -->
-        <test-method status="SKIP" signature="clickPayment()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickPayment" duration-ms="1" started-at="2017-10-12T12:30:10Z" description="Tries to navigate to Make Payment (passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="clickfaq()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickfaq" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to FAQ (passes)" finished-at="2018-03-01T16:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickfaq -->
+        <test-method status="SKIP" signature="clickPayment()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickPayment" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Make Payment (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickPayment -->
-        <test-method status="SKIP" signature="clickPayBill()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickPayBill" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Tries to navigate to pay Bill (passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="clickPayBill()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickPayBill" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to pay Bill (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickPayBill -->
-        <test-method status="SKIP" signature="clickcontact()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickcontact" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Tries to navigate to Contact us (passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="clickcontact()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickcontact" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Contact us (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickcontact -->
-        <test-method status="SKIP" signature="clickTopUp()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickTopUp" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Tries to navigate to Top up (passes)" finished-at="2017-10-12T12:30:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickTopUp -->
-        <test-method status="SKIP" signature="sendcontactus()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="sendcontactus" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Performs an contactus send mail  (passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="sendcontactus()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="sendcontactus" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Performs an contactus send mail  (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendcontactus -->
-        <test-method status="SKIP" signature="clickPlan()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickPlan" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Tries to navigate to Your Plan(passes)" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="clickTopUp()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickTopUp" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Top up (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickPlan -->
-        <test-method status="SKIP" signature="clickProfile()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickProfile" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Navigates to Profile page (passes)" finished-at="2017-10-12T12:30:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickProfile -->
-        <test-method status="SKIP" signature="clickService()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="clickService" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Navigates to Service request page (passes)" finished-at="2017-10-12T12:30:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickService -->
-        <test-method status="SKIP" signature="sendnowrequest()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="sendnowrequest" duration-ms="1" started-at="2017-10-12T12:30:10Z" description="Performs an Service request send mail  (passes)" finished-at="2017-10-12T12:30:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sendnowrequest -->
-        <test-method status="SKIP" signature="logout()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="logout" duration-ms="0" started-at="2017-10-12T12:30:10Z" description="Logs out (passes)" finished-at="2017-10-12T12:30:10Z">
+        </test-method> <!-- clickTopUp -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="logout" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Logs out (passes)" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.pack.home.TestExecution.TestRun@36f6e879]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-12T12:30:10Z" finished-at="2017-10-12T12:30:10Z">
+        <test-method status="SKIP" signature="clickPlan()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickPlan" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Your Plan(passes)" finished-at="2018-03-01T16:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPlan -->
+        <test-method status="SKIP" signature="clickProfile()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickProfile" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Navigates to Profile page (passes)" finished-at="2018-03-01T16:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProfile -->
+        <test-method status="SKIP" signature="sendnowrequest()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="sendnowrequest" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Performs an Service request send mail  (passes)" finished-at="2018-03-01T16:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendnowrequest -->
+        <test-method status="SKIP" signature="clickService()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickService" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Navigates to Service request page (passes)" finished-at="2018-03-01T16:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickService -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-01T16:23:22Z" finished-at="2018-03-01T16:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
