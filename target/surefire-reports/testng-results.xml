@@ -2,15 +2,48 @@
 <testng-results skipped="26" failed="0" total="26" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20976" started-at="2018-03-01T10:53:01Z" finished-at="2018-03-01T10:53:22Z">
+  <suite name="Suite" duration-ms="5688" started-at="2018-03-31T06:45:09Z" finished-at="2018-03-31T06:45:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20976" started-at="2018-03-01T10:53:01Z" finished-at="2018-03-01T10:53:22Z">
+    <test name="Test" duration-ms="5688" started-at="2018-03-31T06:45:09Z" finished-at="2018-03-31T06:45:14Z">
       <class name="com.pack.home.TestExecution.TestRun">
-        <test-method status="FAIL" signature="executing()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="executing" is-config="true" duration-ms="0" started-at="2018-03-01T16:23:01Z" finished-at="2018-03-01T16:23:01Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="executing()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="executing" is-config="true" duration-ms="0" started-at="2018-03-31T12:15:09Z" finished-at="2018-03-31T12:15:09Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: unable to connect to renderer
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WINDOWS-BQKBTT7', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\siddu\AppData\Local\Temp\scoped_dir8280_28768}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9f974c009a79d1299603da5a49f28903]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WINDOWS-BQKBTT7', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\siddu\AppData\Local\Temp\scoped_dir8280_28768}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9f974c009a79d1299603da5a49f28903
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:934)
 	at com.pack.home.Libraries.DriverLaunch.openBrowser(DriverLaunch.java:53)
 	at com.pack.home.TestExecution.TestRun.executing(TestRun.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -40,115 +73,115 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executing -->
-        <test-method status="SKIP" signature="unsuccessfullogin()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="unsuccessfullogin" duration-ms="7" started-at="2018-03-01T16:23:22Z" description="Performs an unsuccessful login and checks the resulting error message (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="unsuccessfullogin()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="unsuccessfullogin" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Performs an unsuccessful login and checks the resulting error message (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unsuccessfullogin -->
-        <test-method status="SKIP" signature="login()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="login" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Performs an successful login and checks the dashboard url (passes)" finished-at="2018-03-01T16:23:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="SKIP" signature="parentallink()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="parentallink" duration-ms="1" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Parental Control (passes)" finished-at="2018-03-01T16:23:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parentallink -->
-        <test-method status="SKIP" signature="blockedlink()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="blockedlink" duration-ms="8" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Blocked List (passes)" finished-at="2018-03-01T16:23:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- blockedlink -->
-        <test-method status="SKIP" signature="verifyWelcomeMesg()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="verifyWelcomeMesg" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Checks for the welcome message (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="verifyWelcomeMesg()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="verifyWelcomeMesg" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Checks for the welcome message (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWelcomeMesg -->
-        <test-method status="SKIP" signature="advancedlink()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="advancedlink" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Blocked List (passes)" finished-at="2018-03-01T16:23:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- advancedlink -->
-        <test-method status="SKIP" signature="clickPrivacy()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickPrivacy" duration-ms="1" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to privacy Page(passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="clickPrivacy()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickPrivacy" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to privacy Page(passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickPrivacy -->
-        <test-method status="SKIP" signature="selectlink2()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="selectlink2" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Blocked List (passes)" finished-at="2018-03-01T16:23:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectlink2 -->
-        <test-method status="SKIP" signature="customlink()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="customlink" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Custom List (passes)" finished-at="2018-03-01T16:23:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- customlink -->
-        <test-method status="SKIP" signature="clickTerms()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickTerms" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Terms of services (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="clickTerms()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickTerms" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Terms of services (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickTerms -->
-        <test-method status="SKIP" signature="clickRefund()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickRefund" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Refund page (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="login" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Performs an successful login and checks the dashboard url (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickRefund -->
-        <test-method status="SKIP" signature="clickfeedback()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickfeedback" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Feedback (passes)" finished-at="2018-03-01T16:23:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickfeedback -->
-        <test-method status="SKIP" signature="sendfeedback()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="sendfeedback" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Performs an Feedback send mail  (passes)" finished-at="2018-03-01T16:23:22Z">
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="sendfeedback()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="sendfeedback" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Performs an Feedback send mail  (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendfeedback -->
-        <test-method status="SKIP" signature="Customurl()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="Customurl" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Perform Send Mail for New Connection (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="clickRefund()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickRefund" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Refund page (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Customurl -->
-        <test-method status="SKIP" signature="clickknowcpe()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickknowcpe" duration-ms="1" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Know your CPE (passes)" finished-at="2018-03-01T16:23:22Z">
+        </test-method> <!-- clickRefund -->
+        <test-method status="SKIP" signature="clickfeedback()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickfeedback" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Feedback (passes)" finished-at="2018-03-31T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickfeedback -->
+        <test-method status="SKIP" signature="clickknowcpe()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickknowcpe" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Know your CPE (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickknowcpe -->
-        <test-method status="SKIP" signature="clickfaq()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickfaq" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to FAQ (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="clickfaq()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickfaq" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to FAQ (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickfaq -->
-        <test-method status="SKIP" signature="clickPayment()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickPayment" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Make Payment (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="clickPayment()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickPayment" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Make Payment (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickPayment -->
-        <test-method status="SKIP" signature="clickPayBill()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickPayBill" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to pay Bill (passes)" finished-at="2018-03-01T16:23:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickPayBill -->
-        <test-method status="SKIP" signature="clickcontact()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickcontact" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Contact us (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="clickcontact()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickcontact" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Contact us (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickcontact -->
-        <test-method status="SKIP" signature="sendcontactus()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="sendcontactus" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Performs an contactus send mail  (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="clickPayBill()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickPayBill" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to pay Bill (passes)" finished-at="2018-03-31T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPayBill -->
+        <test-method status="SKIP" signature="sendcontactus()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="sendcontactus" duration-ms="1" started-at="2018-03-31T12:15:14Z" description="Performs an contactus send mail  (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendcontactus -->
-        <test-method status="SKIP" signature="clickTopUp()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickTopUp" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Top up (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="clickTopUp()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickTopUp" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Top up (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickTopUp -->
-        <test-method status="SKIP" signature="logout()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="logout" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Logs out (passes)" finished-at="2018-03-01T16:23:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="SKIP" signature="clickPlan()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickPlan" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Tries to navigate to Your Plan(passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="clickPlan()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickPlan" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Your Plan(passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickPlan -->
-        <test-method status="SKIP" signature="clickProfile()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickProfile" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Navigates to Profile page (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="clickProfile()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickProfile" duration-ms="1" started-at="2018-03-31T12:15:14Z" description="Navigates to Profile page (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickProfile -->
-        <test-method status="SKIP" signature="sendnowrequest()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="sendnowrequest" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Performs an Service request send mail  (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="sendnowrequest()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="sendnowrequest" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Performs an Service request send mail  (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendnowrequest -->
-        <test-method status="SKIP" signature="clickService()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="clickService" duration-ms="0" started-at="2018-03-01T16:23:22Z" description="Navigates to Service request page (passes)" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="clickService()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="clickService" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Navigates to Service request page (passes)" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickService -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.pack.home.TestExecution.TestRun@7225790e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-01T16:23:22Z" finished-at="2018-03-01T16:23:22Z">
+        <test-method status="SKIP" signature="parentallink()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="parentallink" duration-ms="1" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Parental Control (passes)" finished-at="2018-03-31T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentallink -->
+        <test-method status="SKIP" signature="advancedlink()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="advancedlink" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Blocked List (passes)" finished-at="2018-03-31T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advancedlink -->
+        <test-method status="SKIP" signature="selectlink2()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="selectlink2" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Blocked List (passes)" finished-at="2018-03-31T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectlink2 -->
+        <test-method status="SKIP" signature="Customurl()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="Customurl" duration-ms="1" started-at="2018-03-31T12:15:14Z" description="Perform Send Mail for New Connection (passes)" finished-at="2018-03-31T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customurl -->
+        <test-method status="SKIP" signature="blockedlink()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="blockedlink" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Blocked List (passes)" finished-at="2018-03-31T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blockedlink -->
+        <test-method status="SKIP" signature="customlink()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="customlink" duration-ms="0" started-at="2018-03-31T12:15:14Z" description="Tries to navigate to Custom List (passes)" finished-at="2018-03-31T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customlink -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="logout" duration-ms="1" started-at="2018-03-31T12:15:14Z" description="Logs out (passes)" finished-at="2018-03-31T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.pack.home.TestExecution.TestRun@35fb3008]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-31T12:15:14Z" finished-at="2018-03-31T12:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

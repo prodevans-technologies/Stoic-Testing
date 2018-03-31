@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="22.093" tests="28" errors="0" skipped="27" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="6.612" tests="28" errors="0" skipped="27" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\siddu\Documents\workspace-sts-3.9.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5387995977480381800.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\siddu\Documents\workspace-sts-3.9.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2293132054305912969.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\DevelopmentSuite\jdk8\bin;C:\Program Files\IBM\Bluemix\bin;C:\Program Files\nodejs\;C:\Users\siddu\.minishift\cache\oc\v3.5.5.31;c:\DevelopmentSuite\cdk\bin;c:\DevelopmentSuite\cygwin\bin;c:\DevelopmentSuite\kompose;C:\Users\siddu\AppData\Local\Microsoft\WindowsApps;C:\Users\siddu\AppData\Local\GitHubDesktop\bin;C:\Users\siddu\AppData\Roaming\Composer\vendor\bin;C:\Users\siddu\;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\siddu\.minishift\cache\oc\v3.5.5.31;c:\DevelopmentSuite\cdk\bin;c:\DevelopmentSuite\cygwin\bin;c:\DevelopmentSuite\kompose;C:\Users\siddu\AppData\Local\Microsoft\WindowsApps;C:\Users\siddu\AppData\Local\GitHubDesktop\bin;C:\Users\siddu\AppData\Roaming\Composer\vendor\bin;C:\Users\siddu\AppData\Roaming\npm;C:\Users\siddu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\apache-maven-3.5.2\bin;;E:\sts-bundle\sts-3.9.0.RELEASE;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,25 +60,28 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="executing" classname="com.pack.home.TestExecution.TestRun" time="21.46">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.pack.home.TestExecution.TestRun.executing(TestRun.java:20)
-</failure>
-    <system-out><![CDATA[Timed out waiting for driver server to start.
+  <testcase name="executing" classname="com.pack.home.TestExecution.TestRun" time="6.102">
+    <failure message="disconnected: unable to connect to renderer&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;WINDOWS-BQKBTT7&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\siddu\AppData\Local\Temp\scoped_dir8280_28768}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 9f974c009a79d1299603da5a49f28903" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: unable to connect to renderer
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'WINDOWS-BQKBTT7', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
-Driver info: driver.version: PhantomJSDriver
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\siddu\AppData\Local\Temp\scoped_dir8280_28768}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9f974c009a79d1299603da5a49f28903
+	at com.pack.home.TestExecution.TestRun.executing(TestRun.java:20)
+</failure>
+    <system-out><![CDATA[Selected browser is Chrome
 ]]></system-out>
-    <system-err><![CDATA[Mar 01, 2018 4:23:01 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
-INFO: executable: D:\Git\Stoic-Testing\src\main\java\com\pack\home\AllDrivers\phantomjs\phantomjs
-Mar 01, 2018 4:23:01 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
-INFO: port: 17568
-Mar 01, 2018 4:23:01 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
-INFO: arguments: [--webdriver=17568, --webdriver-logfile=D:\Git\Stoic-Testing\phantomjsdriver.log]
-Mar 01, 2018 4:23:01 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
-INFO: environment: {}
-Mar 01, 2018 4:23:22 PM org.openqa.selenium.os.UnixProcess checkForError
-SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "D:\Git\Stoic-Testing\src\main\java\com\pack\home\AllDrivers\phantomjs\phantomjs" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 45748
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Mar 31, 2018 12:15:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
   <testcase name="unsuccessfullogin" classname="com.pack.home.TestExecution.TestRun" time="0">
@@ -87,37 +90,19 @@ SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: 
   <testcase name="login" classname="com.pack.home.TestExecution.TestRun" time="0">
     <skipped/>
   </testcase>
-  <testcase name="parentallink" classname="com.pack.home.TestExecution.TestRun" time="0">
-    <skipped/>
-  </testcase>
   <testcase name="verifyWelcomeMesg" classname="com.pack.home.TestExecution.TestRun" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="advancedlink" classname="com.pack.home.TestExecution.TestRun" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="blockedlink" classname="com.pack.home.TestExecution.TestRun" time="0">
     <skipped/>
   </testcase>
   <testcase name="clickPrivacy" classname="com.pack.home.TestExecution.TestRun" time="0">
     <skipped/>
   </testcase>
-  <testcase name="selectlink2" classname="com.pack.home.TestExecution.TestRun" time="0">
-    <skipped/>
-  </testcase>
   <testcase name="clickTerms" classname="com.pack.home.TestExecution.TestRun" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="customlink" classname="com.pack.home.TestExecution.TestRun" time="0">
     <skipped/>
   </testcase>
   <testcase name="clickRefund" classname="com.pack.home.TestExecution.TestRun" time="0">
     <skipped/>
   </testcase>
   <testcase name="clickfeedback" classname="com.pack.home.TestExecution.TestRun" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Customurl" classname="com.pack.home.TestExecution.TestRun" time="0">
     <skipped/>
   </testcase>
   <testcase name="sendfeedback" classname="com.pack.home.TestExecution.TestRun" time="0">
@@ -154,6 +139,24 @@ SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: 
     <skipped/>
   </testcase>
   <testcase name="sendnowrequest" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="parentallink" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="advancedlink" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="selectlink2" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="blockedlink" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="customlink" classname="com.pack.home.TestExecution.TestRun" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Customurl" classname="com.pack.home.TestExecution.TestRun" time="0">
     <skipped/>
   </testcase>
   <testcase name="logout" classname="com.pack.home.TestExecution.TestRun" time="0">

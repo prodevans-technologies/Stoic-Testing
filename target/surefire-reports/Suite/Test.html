@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/26</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Mar 01 16:23:01 IST 2018</td>
+<td>Started on:</td><td>Sat Mar 31 12:15:09 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>20 seconds (20976 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5688 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,7 +76,25 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.executing()'><b>executing</b><br>Test class: com.pack.home.TestExecution.TestRun</td>
-<td><div><pre>java.lang.NullPointerException
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WINDOWS-BQKBTT7&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\siddu\AppData\Local\Temp\scoped_dir8280_28768}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9f974c009a79d1299603da5a49f28903
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:934)
 	at com.pack.home.Libraries.DriverLaunch.openBrowser(DriverLaunch.java:53)
 	at com.pack.home.TestExecution.TestRun.executing(TestRun.java:20)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
@@ -85,8 +103,30 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1773283386", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1773283386'><pre>java.lang.NullPointerException
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1325056130", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1325056130'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WINDOWS-BQKBTT7&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\siddu\AppData\Local\Temp\scoped_dir8280_28768}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9f974c009a79d1299603da5a49f28903
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:934)
 	at com.pack.home.Libraries.DriverLaunch.openBrowser(DriverLaunch.java:53)
 	at com.pack.home.TestExecution.TestRun.executing(TestRun.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -142,132 +182,132 @@ function toggleAllBoxes() {
 <td title='com.pack.home.TestExecution.TestRun.Customurl()'><b>Customurl</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Perform Send Mail for New Connection (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.advancedlink()'><b>advancedlink</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Blocked List (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.blockedlink()'><b>blockedlink</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Blocked List (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickPayBill()'><b>clickPayBill</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to pay Bill (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickPayment()'><b>clickPayment</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Make Payment (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickPlan()'><b>clickPlan</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Your Plan(passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickPrivacy()'><b>clickPrivacy</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to privacy Page(passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickProfile()'><b>clickProfile</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Navigates to Profile page (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickRefund()'><b>clickRefund</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Refund page (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickService()'><b>clickService</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Navigates to Service request page (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickTerms()'><b>clickTerms</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Terms of services (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickTopUp()'><b>clickTopUp</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Top up (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickcontact()'><b>clickcontact</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Contact us (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickfaq()'><b>clickfaq</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to FAQ (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickfeedback()'><b>clickfeedback</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Feedback (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.clickknowcpe()'><b>clickknowcpe</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Know your CPE (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.customlink()'><b>customlink</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Custom List (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.login()'><b>login</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Performs an successful login and checks the dashboard url (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.logout()'><b>logout</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Logs out (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.parentallink()'><b>parentallink</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Parental Control (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.selectlink2()'><b>selectlink2</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Tries to navigate to Blocked List (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.sendcontactus()'><b>sendcontactus</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Performs an contactus send mail  (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.sendfeedback()'><b>sendfeedback</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Performs an Feedback send mail  (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.sendnowrequest()'><b>sendnowrequest</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Performs an Service request send mail  (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.unsuccessfullogin()'><b>unsuccessfullogin</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Performs an unsuccessful login and checks the resulting error message (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 <tr>
 <td title='com.pack.home.TestExecution.TestRun.verifyWelcomeMesg()'><b>verifyWelcomeMesg</b><br>Test class: com.pack.home.TestExecution.TestRun<br>Test method: Checks for the welcome message (passes)</td>
 <td></td>
 <td>0</td>
-<td>com.pack.home.TestExecution.TestRun@7225790e</td></tr>
+<td>com.pack.home.TestExecution.TestRun@35fb3008</td></tr>
 </table><p>
 </body>
 </html>

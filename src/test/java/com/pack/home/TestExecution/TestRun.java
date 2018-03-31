@@ -17,10 +17,10 @@ public class TestRun {
 
 	@BeforeTest
 	public void executing() throws InterruptedException, IOException {
-		driver = Dlib.openBrowser("phantomjs");
+		driver = Dlib.openBrowser("chrome");
 		lib = new LibraryForGenericFunction(driver);
 		// Application link will be opened
-		driver.get("http://marcus.oneeight.co.in/zeno/login");
+		driver.get("https://www.mynuron.co.in/login");
 	}
 
 	@Test(priority = 1, description="Performs an unsuccessful login and checks the resulting error message (passes)")
@@ -34,7 +34,7 @@ public class TestRun {
 	
 	@Test(priority = 2, description="Performs an successful login and checks the dashboard url (passes)")
 	public void login() throws InterruptedException, IOException {
-		lib.jsSendKeysForID("username", "ROL000007", "login", "ID");
+		lib.jsSendKeysForID("username", "ROL0000011", "login", "ID");
 		lib.jsSendKeysForID("password", "123456", "login", "ID");
 		Assert.assertTrue(lib.waitAndClickForID("login", "login", "ID"));
 		Thread.sleep(2000);
@@ -141,7 +141,7 @@ public class TestRun {
 		//Assert.assertEquals(lib.getCurrentUrl(), "http://localhost:8080/zeno/contactusPage");					
 	}
 	
-	@Test(priority = 2, description="Tries to navigate to Parental Control (passes)")
+	@Test(priority = 21, description="Tries to navigate to Parental Control (passes)")
 	public void parentallink() throws InterruptedException, IOException {
 		lib.waitAndClickForID("parentallink", "dashboard", "linktext");
 	}
@@ -159,13 +159,13 @@ public class TestRun {
 	}*/
 	
 	
-	@Test(priority = 4, description="Tries to navigate to Blocked List (passes)")
+	@Test(priority = 22, description="Tries to navigate to Blocked List (passes)")
 	public void advancedlink() throws InterruptedException, IOException {
 		lib.waitAndClickForID("advancedlink", "dashboard", "ID");
 	}
 		
 	
-	@Test(priority = 4, description="Tries to navigate to Blocked List (passes)")
+	@Test(priority = 23, description="Tries to navigate to Blocked List (passes)")
 	public void selectlink2() throws InterruptedException, IOException {
 		try {
 			Thread.sleep(1000);
@@ -178,23 +178,23 @@ public class TestRun {
 		//lib.waitAndClickForID("selectlink", "dashboard", "ID");
 	}
 
-	@Test(priority = 4, description="Tries to navigate to Blocked List (passes)")
+	@Test(priority = 24, description="Tries to navigate to Blocked List (passes)")
 	public void blockedlink() throws InterruptedException, IOException {
 		lib.waitAndClickForID("blockedlink", "dashboard", "ID");
 	}
 	
-	@Test(priority = 5, description="Tries to navigate to Custom List (passes)")
+	@Test(priority = 25, description="Tries to navigate to Custom List (passes)")
 	public void customlink() throws InterruptedException, IOException {
 		lib.waitAndClickForID("customlink", "dashboard", "ID");
 	}
 	
-	@Test(priority = 8, description="Perform Send Mail for New Connection (passes)")
+	@Test(priority = 26, description="Perform Send Mail for New Connection (passes)")
 	public void Customurl() throws InterruptedException, IOException {
 		lib.jsSendKeysForID("url", "www.facebook.com", "dashboard", "ID");
 		lib.waitAndClickForID("Customurl", "dashboard", "ID");
 	}
 
-	@Test(priority = 21, description="Logs out (passes)")
+	@Test(priority = 27, description="Logs out (passes)")
 	public void logout() throws InterruptedException, IOException {
 		lib.waitAndClickForID("logoutlink", "dashboard", "linktext");
 	}
